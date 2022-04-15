@@ -28,9 +28,9 @@
 	<div class="d-flex align-items-start flex-column bd-highlight mb-3">
 		<div class="mb-auto p-2 bd-highlight">
 			
-			<img alt="쿠링이미지01" src="https://user-images.githubusercontent.com/53814741/163469327-98af5c02-efc7-4c3e-8fec-9195ca6805ad.JPG" width=32%>
-			<img alt="쿠링이미지02" src="https://user-images.githubusercontent.com/53814741/163469357-aed6a78a-4b65-4a9a-bead-d541e7eee702.JPG" width=32%>
-			<img alt="쿠링이미지02" src="https://user-images.githubusercontent.com/53814741/163469345-503b6b50-b240-4c8d-9656-c719a5f3d9f2.JPG" width=32%>
+			<img alt="쿠링이미지01" src="https://user-images.githubusercontent.com/53814741/163469327-98af5c02-efc7-4c3e-8fec-9195ca6805ad.JPG" width=30%>
+			<img alt="쿠링이미지02" src="https://user-images.githubusercontent.com/53814741/163469357-aed6a78a-4b65-4a9a-bead-d541e7eee702.JPG" width=30%>
+			<img alt="쿠링이미지02" src="https://user-images.githubusercontent.com/53814741/163469345-503b6b50-b240-4c8d-9656-c719a5f3d9f2.JPG" width=30%>
 			
 			<!-- 쿠링 앱 -->
 			
