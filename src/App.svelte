@@ -1,7 +1,4 @@
 <script lang="ts">
-	import EmailSubscriptionView from "./kuring_weekly_hot/EmailSubscriptionView.svelte"
-	
-	let showsEmailSubscription: boolean = true
 
 	let title = " 👋 쿠링에 오신 것을 환영합니다.";
 	let serviceKuring = {
