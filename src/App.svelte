@@ -1,16 +1,17 @@
 <script lang="ts">
-	let title = "🎉 쿠링에 오신 것을 환영합니다.";
+
+	let title = " 👋 쿠링에 오신 것을 환영합니다.";
 	let serviceKuring = {
-		  title: "쿠링 - 건국대학교 공지앱",
+		  title: "🔔 쿠링 - 건국대학교 공지앱",
 			eng: "KU Ring - KU Announcements app",
 			description: "건국대학교 공지사항, 매번 학교홈페이지 들어가지 말고 이제 알림으로 받아보세요. 원하는 공지 카테고리를 구독하고 새 공지가 올라오면 곧바로 푸시 알림으로 받을 수 있습니다.",
 			link: "https://ku-ring.onelink.me/Yxhp/ba3d81ce"
 	}
 	let serviceKUWeeklyHot = {
-			title: "건대 위클리 HOT 공지",
+			title: "📰 건대 위클리 HOT 공지",
 			eng: "KU Weekly HOT Announcemnts",
 			description: "매주 건국대학교를 뜨겁게 달군 공지사항들을 메일로 받아보세요. 장학금, 교환학생, 학사 일정 등 번거롭게 매번 건대 사이트에 접속할 필요가 더이상 없습니다. 정말 우리에게 필요한 소식만 깔끔하게 전달해드립니다!",
-			link: "https://page.stibee.com/subscriptions/176230"
+			link: "https://page.stibee.com/subscriptions/177667"
 	}
 	
 	function openAppDownload() {
@@ -53,7 +54,7 @@
 			<!-- 쿠링 위클리 핫 공지 -->
 			
 			<p class="fs-3 fw-bold">
-				{serviceKUWeeklyHot.title}
+				{serviceKUWeeklyHot.title} <span class="badge rounded-pill bg-success">Beta</span>
 			</p>
 
 			<p>
@@ -61,8 +62,8 @@
 			</p>
 			
 			
-			<button type="button" class="btn btn-outline-success disabled" on:click={openEmailSubscription}>
-				이메일 구독하기 (서비스 준비중)
+			<button type="button" class="btn btn-outline-success" on:click={openEmailSubscription}>
+				이메일 구독하기 <span class="badge rounded-pill bg-success">Beta</span>
 			</button>
 		</div>
 	</div>
@@ -72,7 +73,7 @@
 	main {
 		text-align: left;
 		padding: 1em;
-		max-width: 240px;
+		max-width: 720px;
 		margin: 0 auto;
 	}
 
